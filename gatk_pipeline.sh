@@ -54,6 +54,8 @@ echo "#######################################";
 echo "#indexing reference genome#";
 echo "#######################################";
 echo -e "\n";
+samtools faidx $ref;
+
 
 bwa index $ref;
 
