@@ -1,5 +1,6 @@
 # pipeline-for-variant-calling
 Variant Calling for NGS data 
+
 Here is an explanation of the script:
 
 This script appears to be a pipeline for processing and aligning DNA sequence data. It takes four input files as arguments: two FASTQ files containing paired-end DNA sequence reads (read1 and read2), a reference genome in FASTA format (referance), and a VCF file containing known variants (known_variants). The script performs the following steps:
